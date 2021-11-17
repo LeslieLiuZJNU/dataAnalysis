@@ -31,4 +31,7 @@ if __name__ == '__main__':
     unique_category = list(set(all_category))
     print(unique_district)
     print(unique_category)
-
+    import matplotlib.pyplot as plt
+    fig = plt.figure()
+    ax = fig.add_subplot(projection='3d')
+    ax.bar(left=[7,8,9,10],height=100,zs=0,zdir='z',data=annual_situations)
