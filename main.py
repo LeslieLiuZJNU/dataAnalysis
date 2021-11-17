@@ -70,7 +70,7 @@ if __name__ == '__main__':
     # 绘图设置
     fig = plt.figure(figsize=(6.4, 4.8), dpi=100)
     ax = fig.gca(projection='3d')  # 三维坐标轴
-    ax.get_proj = lambda: np.dot(Axes3D.get_proj(ax), np.diag([1, 1.5, 1, 1]))
+    ax.get_proj = lambda: np.dot(Axes3D.get_proj(ax), np.diag([1, 2, 1, 1.1]))
     ax.bar3d(X, Y, bottom, width, height, Z, shade=True)  #
     # 坐标轴设置
     ax.set_xlabel('Month')
