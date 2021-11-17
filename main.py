@@ -74,7 +74,7 @@ if __name__ == '__main__':
     ax.bar3d(X, Y, bottom, width, height, Z, shade=True)  #
     # 坐标轴设置
     ax.set_xlabel('Month')
-    ax.set_ylabel('index of SKU')
+    ax.set_ylabel('index of SPU')
     ax.set_zlabel('Volume of trade')
     plt.show()
     print('ok')
