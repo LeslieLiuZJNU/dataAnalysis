@@ -32,8 +32,8 @@ if __name__ == '__main__':
         all_category.extend(monthly_situation[1])
     unique_district = list(set(all_district))
     unique_category = list(set(all_category))
-    print(unique_district)
-    print(unique_category)
+    # print(unique_district)
+    # print(unique_category)
 
     m_c_v = []
     for monthly_situation in monthly_situations:
@@ -54,7 +54,7 @@ if __name__ == '__main__':
     for i in range(4):
         for j in range(len(unique_category)):
             Z[i, j] = i + j
-    print(Z)
+    # print(Z)
 
     for i in range(4):
         for j in range(len(unique_category)):
